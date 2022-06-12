@@ -11,6 +11,10 @@
 <body>
     <div class="container">
 
+        <div id="hidden-nav" class="hidden-nav" onclick="showNav()" >
+            Hidden Nav To Be Fixed Later
+        </div>
+
         <div class="div-header">
             <p>
                 <img src="https://saaspik.pixelsigns.art/saaspik/assets/img/main-logo.png" alt="">
@@ -120,5 +124,17 @@
         </div>
 
     </div>
+
+    <script>
+        function showNav(){
+            x = document.getElementById("hidden-nav");
+            if(x.style.display = "none"){
+                x.style.display = "block";
+            }
+            else{
+                .style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>

@@ -297,6 +297,12 @@ a
 {
     color: #2b2350;
 }
+
+.hidden-nav
+{
+    display: none;
+}
+
 @media(max-width: 1500px)
 {
     .box-element, .div-header
@@ -398,5 +404,13 @@ a
         width: 100%;
         align-items: center;
         justify-content: center;
+    }
+
+    .hidden-nav
+    {
+        display: block;
+        position: absolute;
+        z-index: 9;
+        background-color: red;
     }
 }
