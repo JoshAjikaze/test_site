@@ -368,6 +368,9 @@ a
 
     .form-div
     {
+        align-self: center;
+        justify-self: center;
+        margin-left: 50px;
         width: 300px;
     }
 
