@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap');
+
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root
+{
+    --link-color: #fff;
+    --background: #5331a1;
+    --head-txt: #2b2350;
+}
+
+a{
+    text-decoration: none;
+    color: var(--link-color);
+}
+.container
+{
+    width: 100%;
+    /* position: absolute; */
+    min-height:100vh;
+    padding: 0px 15vw;
+    /* background-color: var(--background); */
+    background-image: linear-gradient(-60deg, #7052fb 0%, #8a60fd 100%);
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 20px;
+    position: sticky;
+    /* border: 1px solid #fff; */
+}
+
+.head{
+    font-size: clamp(2rem, 3vw, 3rem);
+}
+
+.head span
+{
+    font-weight: bold;
+}
+
+.nav-links a
+{
+    font-size: clamp(.7rem, 3vw, .9rem);
+    padding: 10px;
+    margin:  0px 5px;
+    font-weight: bold;
+}
+
+.nav-links span
+{
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+    padding: 15px 20px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+.banner
+{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20vh;
+    color: var(--link-color);
+    border: 1px solid #fff;
+}
+
+.banner > div
+{
+    /* flex-basis: 700px; */
+    border: 1px solid #fff;
+    margin: 0 5%;
+}
+
+.left-top, .box-2 p
+{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+
+.left-top span, .box-2 span
+{
+    font-weight: 100;
+}
+
+.left-top .small-txt
+{
+    margin: 30px 0;
+    display: block;
+    font-size:1.1rem;
+    /* font-weight: 600; */
+}
+
+.left-bottom
+{
+    /* width: 440px; */
+    background-color: var(--link-color);
+    padding: 5px 5px 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.left-bottom input, .left-bottom button
+{
+    height: 50px;
+    border: none;
+    outline: none;
+
+}
+
+
+.left-bottom button
+{
+    width: 150px;
+    border-radius: 60px;
+    /* background-color: #5c42d2; */
+    background-color: #6a51db;
+    color: var(--link-color);
+}
+
+.left i
+{
+    padding:20px;
+    background: #e4e4e4;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin-top: 25px;
+    color:var(--background);
+}
+
+.right
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right img
+{
+    width: auto;
+    height: 600px;
+}
+
+.header > div
+{
+    display: none;
+}
+
+.header > div
+{
+    display: none;
+}
+
+.box-2
+{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-flow: column;
+}
+
+.box-2 p
+{
+    color: var(--head-txt);
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+
+.sm-cont
+{
+    width: 100%;
+    min-height: 10vh;
+    border: 1px solid #000;
+    padding: 10px 0;
+    display: flex;
+}
+
+.sm-cont > div
+{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:30px;
+    width: 300px;
+    border: 1px solid #000;
+}
+
+.sm-cont a
+{
+    color: var(--head-txt);
+}
+
+.sm-cont > div i
+{
+    /* padding: 5px; */
+    /* border: 1px solid var(--background); */
+    color: var(--background);
+}
+
+.sm-cont > div h5
+{
+    font-size: 1.2rem;
+    /* margin: 15px 0; */
+}
+
+.sm-cont span
+{
+    color: #555;
+    /* margin: 15px 0; */
+}
+@media(max-width: 1250px){
+    .header
+    {
+        flex-direction: row-reverse;
+    }
+    .nav-links
+    {
+        display: none;
+    }
+
+    .header > div
+    {
+        display: block;
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    .banner
+    {
+        flex-wrap: wrap;
+        min-height:100vh;
+    }
+}
+
+/* @media(max-width: 700px)
+{
+
+    .container
+    {
+        padding: 5px;
+    }
+    
+    .left-top
+    {
+        font-size: 2rem;
+    }
+
+    .left-top .small-txt
+    {
+        font-size:0.5rem;
+    }
+
+    .left-bottom
+    {
+        width: 300px;
+    }
+
+    .left-bottom input, .left-bottom button
+    {
+        width: 200px;
+        height: 50px;
+        border: none;
+        outline: none;
+
+    }
+
+    .left-bottom button
+    {
+        width: 100px;
+    }
+} */
