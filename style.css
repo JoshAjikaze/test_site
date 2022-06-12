@@ -354,9 +354,18 @@ a
 
 @media(max-width: 500px)
 {
+    .div-header
+    {
+        margin-top: 5px;
+    }
     .box-element, .div-header
     {
-        padding:0px;
+        padding:10px;
+    }
+
+    .box-element
+    {
+        padding-top: 60px;
     }
 
     .box
@@ -370,7 +379,7 @@ a
     {
         align-self: center;
         justify-self: center;
-        margin-left: 50px;
+        margin-left: 20px;
         width: 300px;
     }
 
