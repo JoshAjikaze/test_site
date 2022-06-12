@@ -373,4 +373,11 @@ a
     {
         width: 60%;
     }
+
+    .sm-cont
+    {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
 }
