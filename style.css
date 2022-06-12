@@ -6,6 +6,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root
@@ -22,7 +23,8 @@ a{
 .container
 {
     width: 100%;
-    /* position: absolute; */
+    position: absolute;
+    top: 0px;
     min-height:100vh;
     padding: 0px 15vw;
     /* background-color: var(--background); */
@@ -35,8 +37,12 @@ a{
     align-items: center;
     justify-content: space-between;
     top: 20px;
-    position: sticky;
-    /* border: 1px solid #fff; */
+    position: fixed;
+    top:0;
+    width: 100%;
+    padding:0 15vw;
+    z-index: 9;
+    background: transparent;
 }
 
 .head{
@@ -252,40 +258,15 @@ a{
     }
 }
 
-/* @media(max-width: 700px)
+@media(max-width: 700px)
 {
 
     .container
     {
-        padding: 5px;
+        width: 100%;
+        padding: 50px;
+        border: 1px solid #fff;
+        /* margin: 10px; */
     }
     
-    .left-top
-    {
-        font-size: 2rem;
-    }
-
-    .left-top .small-txt
-    {
-        font-size:0.5rem;
-    }
-
-    .left-bottom
-    {
-        width: 300px;
-    }
-
-    .left-bottom input, .left-bottom button
-    {
-        width: 200px;
-        height: 50px;
-        border: none;
-        outline: none;
-
-    }
-
-    .left-bottom button
-    {
-        width: 100px;
-    }
-} */
+}
