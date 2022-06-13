@@ -361,6 +361,7 @@ a
     color: #2b2350;
     width: 500px;
     font-size: 1.2rem;
+    font-weight: 500;
 }
 
 @media(max-width: 1500px)
@@ -494,6 +495,7 @@ a
     .span-2
     {
         width: 90%;
+        font-size: 1rem;
     }
 
     .box-3-div div img
