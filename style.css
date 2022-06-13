@@ -313,6 +313,7 @@ a
     align-items: center;
     justify-content: center;
     background-color: #fff;
+    padding-bottom: 50px;
 }
 
 .box-3-div
@@ -362,6 +363,74 @@ a
     width: 500px;
     font-size: 1.2rem;
     font-weight: 500;
+}
+
+.span-2:hover
+{
+    color: #7052fb;
+}
+
+.box-4
+{
+    background-color: #fff;
+    width: 100%;
+    padding: 15vw;
+}
+
+.box-4-head
+{
+    font-size: 2rem;
+    text-align: left;
+}
+
+.box-4-top
+{
+    display: flex;
+}
+
+.box-4-top p
+{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.box-4-top a
+{
+    color:#7052fb;
+    padding: 10px 40px;
+    border:1px solid #7052fb;
+    border-radius: 30px;
+}
+
+.box-4-top a:hover
+{
+    background: #7052fb;
+    color:#fff;
+    box-shadow: 0 0 30px #7152fb4b;
+}
+
+.box-4-top div
+{
+    flex-basis: 50%;
+    /* display: inherit; */
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+}
+
+.box-4-span
+{
+    color:#555;
+    /* border: 1px solid black; */
+}
+
+.head-color
+{
+    color: #2b2350;
+}
+
+.fa-check-circle
+{
+    color: green;
 }
 
 @media(max-width: 1500px)
