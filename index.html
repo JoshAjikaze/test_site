@@ -9,11 +9,14 @@
     <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
 </head>
 <body>
+
+    <div id="hidden-nav" class="hidden-nav" >
+        Hidden Nav To Be Fixed Later
+        <i class="fas fa-times" onclick="document.getElementById('hidden-nav').style.display = 'none'"></i>
+    </div>
+
     <div class="container">
 
-        <div id="hidden-nav" class="hidden-nav" onclick="showNav()" >
-            Hidden Nav To Be Fixed Later
-        </div>
 
         <div class="div-header">
             <p>
@@ -60,7 +63,7 @@
                 <a href="#" class="try-for-free">Try For Free</a>
             </div>
 
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars" onclick="document.getElementById('hidden-nav').style.display = 'block';"></i>
 
         </div>
 
@@ -84,7 +87,7 @@
             </div>
 
             <div class="box right">
-                <img src="https://saaspik.pixelsigns.art/saaspik/media/banner/mobile.png" alt="">
+                <img src="https://saaspik.pixelsigns.art/saaspik/media/banner/mobile.png" alt=""> 
             </div>
         </div>
 
@@ -132,7 +135,7 @@
                 x.style.display = "block";
             }
             else{
-                .style.display = "none";
+                x.style.display = "none";
             }
         }
     </script>
