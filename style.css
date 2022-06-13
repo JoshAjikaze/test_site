@@ -572,4 +572,12 @@ a
         width: 300px;
         height: auto;
     }
+
+    .box-4-top
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
