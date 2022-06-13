@@ -426,11 +426,75 @@ a
 .head-color
 {
     color: #2b2350;
+    margin-left: 20px;
 }
 
 .fa-check-circle
 {
     color: green;
+    /* margin-right: 2 */
+}
+
+.fa-mug, .fa-key, .fa-cloud
+{
+    color:#7052fb;
+    /* margin-left: 3000px; */
+}
+
+.reversed
+{
+    flex-direction: row-reverse;
+}
+
+.reversed i
+{
+    color:#2b2350;
+}
+
+.image-box
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.image-box img
+{
+    width: 300px;
+}
+
+.box-5
+{
+    width: 100%;
+    min-height: 45vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left:17vw;
+    padding-right: 17vw;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.box-5 p
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 1px solid #fff;
+}
+
+.box-5 p span
+{
+    color: #fff;
+    text-align: left;
+}
+
+.signup-btn a
+{
+    padding: 15px 30px;
+    background: #fff;
+    color: #7052fb;
+    border-radius: 30px;
 }
 
 @media(max-width: 1500px)
@@ -573,7 +637,7 @@ a
         height: auto;
     }
 
-    .box-4-top
+    .box-4-top, .box-4-top-right > div
     {
         display: flex;
         flex-direction: column;
