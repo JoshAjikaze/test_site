@@ -491,9 +491,7 @@ a
 
 .signup-btn
 {
-    width: 400px;
     border: 1px solid #000;
-    /* padding-right: 70px; */
 }
 
 .signup-btn a
@@ -509,6 +507,7 @@ a
     background: #fff;
     height: 70vh;
     border: 1px solid #000;
+    overflow-x: hidden;
 }
 
 .btn-2
@@ -573,6 +572,12 @@ a
     .box img
     {
         height:400px;
+    }
+
+    .box-5
+    {
+        flex-direction: column;
+        padding-bottom: 30px;
     }
 }
 
@@ -690,5 +695,16 @@ a
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .signup-btn
+    {
+        margin-top: 30px;
+        margin-left: 50px;
+        width: 200px;
+        height: 120px;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
     }
 }
