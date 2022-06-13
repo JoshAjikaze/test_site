@@ -484,7 +484,11 @@ a
 
     .i-span
     {
-        width: 10%;
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .span-2
