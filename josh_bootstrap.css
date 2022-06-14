@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+}
+
+.bx
+{
+    min-height: 5vh;
+    min-width: 5vh;
+}
+
+.bx-h-100
+{
+    min-height: 100vh;
+}
+
+.bx-w-100
+{
+    min-width: 100vw;
+}
+
+.bx-row, .bx-col
+{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.bx-col
+{
+    flex-direction: column;
+}
+
+.al-f-s
+{
+    align-items: flex-start;
+}
+
+.al-f-e
+{
+    align-items: flex-end;
+}
+
+.al-c
+{
+    align-items:center;
+}
+
+.al-b
+{
+    align-items: baseline;
+}
+
+.al-s
+{
+    align-items: stretch;
+}
+
+.js-cent
+{
+    justify-content: center;
+}
+
+.cl-dark
+{
+    color:#222;
+}
+
+.cl-md-dark /* medium dark color */
+{
+    color: #666;
+}
