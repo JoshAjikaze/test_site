@@ -763,8 +763,8 @@ a
 
     .box-3-div div img
     {
-        width: 300px;
-        height: auto;
+        width: 700px;
+        /* height: auto; */
     }
 
     .box-4-top, .box-4-top-right > div
