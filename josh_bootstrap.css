@@ -85,7 +85,39 @@
     padding: 10px
 }
 
+.mg-up-10
+{
+    margin-top: 50px;
+}
+
 .fw-bold
 {
     font-weight: bold;
+}
+
+.btn
+{
+    padding: 10px 20px;
+    border: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.btn-primary
+{
+    background: blue;
+    color: #fff;
+}
+
+.btn-primary-outline
+{
+    background: transparent;
+    color: blue;
+}
+
+.btn-a:hover, .btn-primary-outline:hover
+{
+    background-color: #7052fb;
+    color: #fff;
+    box-shadow: 0 0 30px #7152fb4b;
 }

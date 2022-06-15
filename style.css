@@ -539,6 +539,12 @@ a
     color:#7052fb;
 }
 
+.line:hover, .line i:hover
+{
+    background: #7052fb;
+    color: #fff;
+}
+
 .box-6-img, .box-6-img img
 {
     width: 300px;
@@ -555,6 +561,7 @@ a
 {
     display: flex;
     flex-direction:column;
+    border: 1px solid yellow;
 }
 
 .box-7-cont
@@ -576,6 +583,12 @@ a
 .box-7-cont > div .wd-600px
 {
     width: 600px;
+}
+
+.box-7-cont div 
+{
+    height: 600px;
+    justify-content: space-between;
 }
 
 .box-8
@@ -620,6 +633,63 @@ a
 {
     padding: 15px 18px;
 }
+
+.absolute-img
+{
+    position: absolute;
+    margin-top: 100px;
+}
+
+.mg-left
+{
+    min-height:500px;
+    margin-left: 200px;
+}
+
+.mg-top-100
+{
+    margin-top: 100px;
+}
+
+/* animations */
+.right img 
+{
+    animation-duration: 1s;
+    animation-name: phone-bounce;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes phone-bounce {
+    from {
+      margin-top: 30px;
+    }
+  
+    to {
+      margin-bottom: 30px ;
+    }
+  }
+
+.image-box img
+{
+    animation-duration: 10s;
+    animation-name: left-right;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes left-right
+{
+    from{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    to{
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+}
+/* end of animations */
 
 @media(max-width: 1500px)
 {
